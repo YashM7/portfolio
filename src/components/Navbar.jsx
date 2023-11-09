@@ -1,6 +1,6 @@
 import React, { useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
-
+import axios from "axios";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close, github } from "../assets";
@@ -8,6 +8,8 @@ import { logo, menu, close, github } from "../assets";
 import linkedIn from "/linkedin.png"
 
 const Navbar = () => {
+
+  axios.get("https://movies-data-api.onrender.com/movies");
 
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false);
