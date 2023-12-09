@@ -13,53 +13,56 @@ const Experience = () => {
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>Work Experience</h2>
       </motion.div>
+
       <VerticalTimeline>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="July 2022 - May 2023"
-    iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
-    icon={
-      <div>
-        <img src={motorola} alt="logo" />
-      </div>
-    }
-  >
-    <h3 className="vertical-timeline-element-title">Software Engineer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Motorola Mobility, LLC</h4>
-    <h4 className="vertical-timeline-element-subtitle">Chicago, IL</h4>
-    <p>
-      Developed and implemented an Android feature that detects a noisy environment and activates vibration for every incoming call until the user exits the noisy environment.
-    </p>
-    <p>
-    Worked alongside Dreamscape and Verizon to configure an Edge server, HMD, and 5G neckbands for a 5G VR demo,
-resulting in a transformative impact on commercial VR gaming.
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="Jan 2022 - May 2022"
-    iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
-    icon={
-      <div>
-        <img src={UIC} alt="logo" />
-      </div>
-    }
-  >
-    <h3 className="vertical-timeline-element-title">Undergraduate TA for Database Systems</h3>
-    <h4 className="vertical-timeline-element-subtitle">Department of Computer Science UIC</h4>
-    <h4 className="vertical-timeline-element-subtitle">Chicago, IL</h4>
-    <p>
-      Conducted labs and oral examinations to help students understand key concepts like Spring MVC architecture and CRUD functionality.
-    </p>
-    <p>
-      Structured office hours to assist students in understanding concepts, and resolving bugs.
-    </p>
-  </VerticalTimelineElement>
-</VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          date="July 2022 - May 2023"
+          iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
+          icon={
+            <div>
+              <img src={motorola} alt="logo" />
+            </div>
+          }
+        >
+          <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Motorola Mobility, LLC</h4>
+          <h4 className="vertical-timeline-element-subtitle">Chicago, IL</h4>
+
+          <p>
+          Designed and implemented a new microservice to enhance the customer communication capabilities within the existing e-commerce platform.
+          </p>
+          <p>
+            Developed and implemented an Android feature that detects a noisy environment and activates vibration for every incoming call until the user exits the noisy environment.
+          </p>
+
+        </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+        date="Jan 2022 - May 2022"
+        iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
+        icon={
+          <div>
+            <img src={UIC} alt="logo" />
+          </div>
+          }
+      >
+        <h3 className="vertical-timeline-element-title">Undergraduate TA for Database Systems</h3>
+        <h4 className="vertical-timeline-element-subtitle">Department of Computer Science UIC</h4>
+        <h4 className="vertical-timeline-element-subtitle">Chicago, IL</h4>
+        <p>
+          Conducted labs and oral examinations to help students understand key concepts like Spring MVC architecture and CRUD functionality.
+        </p>
+        <p>
+          Structured office hours to assist students in understanding concepts, and resolving bugs.
+        </p>
+      </VerticalTimelineElement>
+    </VerticalTimeline>
     </>
   )
 }
