@@ -38,15 +38,18 @@ Before you begin, ensure you have the following installed:
 
 2. Install dependencies:
 
+    ```bash
     npm install
 
 3. Start the development server:
 
+    ```bash
     npm run dev
-    The portfolio will be available at http://localhost:5173 by default.
+
+The portfolio will be available at http://localhost:5173 by default.
 
 ## Technologies Used
 
-React
-Vite
-Tailwind CSS
+- React
+- Vite
+- Tailwind CSS
