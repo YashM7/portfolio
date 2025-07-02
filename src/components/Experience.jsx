@@ -32,10 +32,10 @@ const Experience = () => {
           <h4 className="vertical-timeline-element-subtitle">Chicago, IL</h4>
 
           <p>
-          Designed and implemented a new microservice to enhance the customer communication capabilities within the existing e-commerce platform.
+            Developed and implemented an Android feature that detects a noisy environment and activates vibration for every incoming call until the user exits the noisy environment.
           </p>
           <p>
-            Developed and implemented an Android feature that detects a noisy environment and activates vibration for every incoming call until the user exits the noisy environment.
+            Collaborated with Dreamscape and Verizon to configure a 5G-enabled VR demo using an Edge server, HMD, and 5G neckbands, significantly advancing commercial VR gaming capabilities. Presented the technology to executives from companies like Meta, Microsoft, Verizon, and Qualcomm.
           </p>
 
         </VerticalTimelineElement>
