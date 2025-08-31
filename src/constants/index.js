@@ -17,7 +17,8 @@ import {
     express,
     postman,
     e_commerce,
-    movie_website
+    movie_website,
+    dashboard
   } from "../assets";
   
   export const navLinks = [
@@ -114,6 +115,33 @@ import {
   ];
   
   const projects = [
+    {
+      name: "FinSight Dashboard",
+      description:
+        "Finance tracking app for freelancers, featuring income/expense management, transaction reports and AI integration.",
+      tags: [
+        {
+          name: "springboot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "react",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "gemini AI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "orange-text-gradient",
+        },
+        
+      ],
+      image: dashboard,
+      website_link: "https://finsight-landingpage.netlify.app/",
+      source_code_link: "https://github.com/YashM7/finsight-dashboard",
+    },
     {
       name: "Movie Website",
       description:

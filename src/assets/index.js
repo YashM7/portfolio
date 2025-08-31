@@ -27,6 +27,7 @@ import motorola from "./company/motorola.png"
 import go_to_website from "./go_to_website.png"
 import e_commerce from "./e-commerce.png"
 import movie_website from "./movie_website.png"
+import dashboard from "./dashboard.png"
 
 export {
   logo,
@@ -54,5 +55,6 @@ export {
   motorola,
   go_to_website,
   e_commerce,
-  movie_website
+  movie_website,
+  dashboard
 };
