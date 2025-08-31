@@ -10,6 +10,7 @@ import linkedIn from "/linkedin.png"
 const Navbar = () => {
 
   axios.get("https://movies-data-api.onrender.com/movies");
+  axios.get("https://finsight-backend-y0l5.onrender.com/user/ping");
 
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false);
